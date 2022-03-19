@@ -1,0 +1,6 @@
+.photo__item{
+  list-style: none;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+}

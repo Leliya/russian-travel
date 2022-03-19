@@ -1,0 +1,10 @@
+.intro {
+  padding-top: 92px;
+  /* max-width: 690px; */
+  /* padding-right: 15%; */
+  /* padding-left: 15%; */
+  display: grid;
+  grid-template-columns: 11vw 1fr 1fr 1fr 11vw;
+  /*flex-direction: column;
+margin: auto;*/
+}

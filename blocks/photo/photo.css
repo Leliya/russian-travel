@@ -1,0 +1,11 @@
+.photo {
+  display: grid;
+  width:calc(100% - 96px);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: space-between;
+  padding: 0;
+  margin: auto;
+  gap:16px;
+  padding-top: 92px;
+}
