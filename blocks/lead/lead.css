@@ -1,6 +1,6 @@
 .lead {
   display: grid;
-  grid-template-columns: 11vw 1fr 720px 1fr 11vw;
+  grid-template-columns: 12.5vw 1fr 720px 1fr 12.5vw;
   grid-template-rows: min-content min-content min-content min-content;
   padding-top: 56px;
 }

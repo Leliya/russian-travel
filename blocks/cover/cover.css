@@ -1,10 +1,8 @@
 .cover{
-  display: flex;
-  /* align-items: center; */
-  justify-content: center;
-  max-width: calc(100% - 96px);
-  margin: auto;
-  padding-top: 92px;
-  /* position: relative; */
-  text-decoration: none;
+ max-width: calc(100% - 7.5vw);
+ margin: auto;
+ padding-top: 92px;
+ position: relative;
+ text-decoration: none;
+ /* max-height: 740px; */
 }

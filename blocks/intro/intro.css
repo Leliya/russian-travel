@@ -4,7 +4,7 @@
   /* padding-right: 15%; */
   /* padding-left: 15%; */
   display: grid;
-  grid-template-columns: 11vw 1fr 1fr 1fr 11vw;
+  grid-template-columns: 12.5vw 1fr 1fr 1fr 12.5vw;
   /*flex-direction: column;
 margin: auto;*/
 }
