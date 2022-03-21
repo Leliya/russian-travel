@@ -8,3 +8,39 @@
   /*flex-direction: column;
 margin: auto;*/
 }
+
+@media screen and (min-width: 1281px) {
+  .intro {
+    padding-top: 92px;
+    grid-template-columns: 12.5vw 1fr 1fr 1fr 12.5vw;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .intro {
+    padding-top: 92px;
+    grid-template-columns: 12.5vw 1fr 1fr 1fr 12.5vw;
+  }
+}
+
+@media (max-width: 1024px) {
+.intro {
+  padding-top: 92px;
+    grid-template-columns: 4.68vw 1fr 1fr 1fr 4.68vw;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .intro {
+    padding-top: 11.5%;
+    grid-template-columns:3.125vw 1fr 3.125vw;
+  }
+}
+
+@media (max-width: 425px) {
+  .intro {
+    padding-top: 15%;
+    grid-template-columns: 16px min-content 16px;
+  }
+}

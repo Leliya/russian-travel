@@ -14,6 +14,7 @@
 @import url("../blocks/intro/__text/intro__text.css");
 @import url("../blocks/intro/__list/intro__list.css");
 @import url("../blocks/intro/__list-item/intro__list-item.css");
+@import url("../blocks/intro/__number/intro__number.css");
 @import url("../blocks/photo/photo.css");
 @import url("../blocks/photo/__item/photo__item.css");
 @import url("../blocks/places/places.css");
@@ -53,4 +54,13 @@
   src: local('Inter-Regular'),
     url("../blocks/fonts/Inter-Regular.woff2") format("woff2"),
     url("../blocks/fonts/Inter-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Inter-Regular'),
+    url("../blocks/fonts/Inter-Bold.woff2") format("woff2"),
+    url("../blocks/fonts/Inter-Bold.woff") format("woff");
 }
