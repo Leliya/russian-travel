@@ -7,3 +7,17 @@
   text-align: right;
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .footer__copyright  {
+    font-size: 1.82vw;
+  }
+}
+
+@media (max-width: 425px) {
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 1;
+    text-align: left;
+  }
+}

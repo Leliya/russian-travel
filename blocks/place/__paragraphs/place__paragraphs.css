@@ -3,10 +3,6 @@
   grid-row: 2;
 }
 
-.place__paragraphs:last-of-type{
-
-}
-
 @media (max-width: 425px) {
   .place__paragraphs{
     grid-column: 1;
