@@ -9,3 +9,17 @@
   color: #ffffff;
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .cover__title{
+    font-size: 9.37vw;
+    max-width: 72.9vw;
+  }
+}
+
+@media (max-width: 425px) {
+  .cover__title{
+  font-size: 8.23vw;
+  max-width: 65vw;
+}
+}

@@ -1,8 +1,20 @@
 .cover{
- max-width: calc(100% - 7.5vw);
+ /* max-width: calc(100% - 96px); */
  margin: auto;
  padding-top: 92px;
  position: relative;
  text-decoration: none;
  /* max-height: 740px; */
+}
+
+@media (max-width: 768px){
+  .cover {
+    padding-top: 90px;
+  }
+}
+
+@media (max-width: 425px) {
+  .cover {
+    padding-top: 66px;
+  }
 }
