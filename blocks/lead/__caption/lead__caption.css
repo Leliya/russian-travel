@@ -12,3 +12,9 @@
   grid-column: 2/4;
   grid-row: 4;
 }
+
+@media screen and (min-width: 1281px) {
+  .lead__caption {
+    font-size: 0.78vw;
+  }
+}
