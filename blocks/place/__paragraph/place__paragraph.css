@@ -7,3 +7,37 @@
   line-height: 1.63;
   padding-bottom: 26px;
   }
+
+  .place__paragraph:last-of-type{
+    padding-bottom: 0;
+  }
+
+  @media screen and (min-width: 1281px) {
+    .place__paragraph{
+      font-size: 1.4vw;
+      padding-bottom: 6.25vw;
+      }
+
+  }
+  
+  @media screen and (max-width: 1280px) {
+  
+    
+  }
+  
+  @media (max-width: 1024px) {
+  
+    
+  }
+  
+  @media (max-width: 768px) {
+    .place__paragraph{
+      font-size: 2vw;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .place__paragraph{
+      font-size: 16px;
+    }
+  }

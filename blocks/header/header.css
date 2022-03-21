@@ -30,7 +30,7 @@
 
 @media (max-width: 768px) {
   .header {
-    width:calc(100% - 48px);
+    width: calc(100% - 7.7vw);
     padding-top: 28px;
   }
 }

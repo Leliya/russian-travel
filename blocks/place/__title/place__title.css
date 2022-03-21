@@ -9,3 +9,19 @@
   align-self: end;
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .place__title{
+    font-size: 5.46vw;
+    line-height: 1.1;
+  }
+}
+
+@media (max-width: 425px) {
+  .place__title{
+    width:calc(100% - 32px);
+    margin: auto;
+    font-size: 32px;
+    line-height: 1.1;
+  }
+}

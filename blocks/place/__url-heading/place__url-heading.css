@@ -8,3 +8,9 @@ letter-spacing: 2px;
 color: #AAAAAA;
 margin: 0;
 }
+
+@media screen and (min-width: 1281px) {
+  .place__url-heading {
+    font-size: 0.94vw;
+  }
+}

@@ -48,7 +48,7 @@
 
 @media (max-width: 768px) {
   .photo {
-    width:calc(100% - 6.25vw);
+    width: calc(100% - 7.7vw);
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(6, 1fr);
     gap:16px;
