@@ -4,7 +4,7 @@
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
-  /* align-items: baseline; */
+  align-items: baseline;
 }
 
 @media screen and (min-width: 1281px) {
@@ -17,7 +17,6 @@
   .footer {
     padding: 11.46vw 0 24px;
     max-width: calc(100% - 9.36vw);
-    align-items: baseline;
   }
 }
 
@@ -27,7 +26,6 @@
     max-width: calc(100% - 32px);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: flex-start;
     min-height: 310px;
     justify-content: center;
