@@ -1,43 +1,22 @@
 .places {
   display: flex;
-  flex-direction:column;
-  max-width: calc(100% - 25vw);
-  margin: auto;
-  padding-top: 12px;
-}
-
-@media screen and (min-width: 1281px) {
-  .places {
+  flex-direction: column;
   max-width: calc(100% - 23.125vw);
   margin: auto;
   padding-top: 12px;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  .places {
-    max-width: calc(100% - 23.125vw);
-    margin: auto;
-    padding-top: 12px;
-    }
-  
 }
 
 @media (max-width: 1024px) {
   .places {
     max-width: calc(100% - 9.375vw);
-    margin: auto;
-    padding-top: 12px;
-    }
-  
+  }
 }
 
 @media (max-width: 768px) {
   .places {
     max-width: calc(100% - 7.7vw);
-    margin: auto;
     padding-top: 15px;
-    }
+  }
 }
 
 @media (max-width: 425px) {
@@ -45,5 +24,5 @@
     width: 100%;
     margin: 0;
     padding-top: 14px;
-    }
+  }
 }

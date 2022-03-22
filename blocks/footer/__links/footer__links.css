@@ -1,4 +1,4 @@
-.footer__links{
+.footer__links {
   list-style: none;
   display: flex;
   justify-content: start;
@@ -7,10 +7,8 @@
   align-items: center;
 }
 
-
-
 @media (max-width: 425px) {
-  .footer__links{
+  .footer__links {
     flex-direction: column;
     justify-content: space-between;
     margin: 0;

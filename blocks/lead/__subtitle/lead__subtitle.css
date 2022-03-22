@@ -1,5 +1,5 @@
-.lead__subtitle{
-  font-family: 'Inter';
+.lead__subtitle {
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -15,62 +15,34 @@
 }
 
 @media screen and (min-width: 1281px) {
-  .lead__subtitle{
-    font-size: 30px;
-    line-height: 1.2;
-    max-width: 640px;
-    padding-top: 32px;
-    padding-bottom: 64px;
-    grid-column: 3;
-    grid-row: 2;
+  .lead__subtitle {
+    font-size: 2.34vw;
+    max-width: 50vw;
+    grid-column: 2/-2;
   }
 }
-
-@media screen and (max-width: 1280px) {
-  .lead__subtitle{
-    font-size: 30px;
-    line-height: 1.2;
-    max-width: 640px;
-    padding-top: 32px;
-    padding-bottom: 64px;
-    grid-column: 3;
-    grid-row: 2;
-  }
-  
-}
-
 @media (max-width: 1024px) {
-  .lead__subtitle{
-    font-size: 30px;
-    line-height: 1.2;
-    max-width: 640px;
-    padding-top: 32px;
+  .lead__subtitle {
     padding-bottom: 56px;
-    grid-column: 3;
-    grid-row: 2;
   }
 }
 
 @media (max-width: 768px) {
-  .lead__subtitle{
+  .lead__subtitle {
     font-size: 4vw;
-    line-height: 1.2;
     max-width: 83%;
-    padding-top: 32px;
     padding-bottom: 56px;
     grid-column: 2;
-    grid-row: 2;
   }
 }
 
 @media (max-width: 425px) {
-  .lead__subtitle{
+  .lead__subtitle {
     font-size: 16px;
     line-height: 1.25;
     max-width: 288px;
     padding-top: 16px;
     padding-bottom: 40px;
     grid-column: 2;
-    grid-row: 2;
   }
 }

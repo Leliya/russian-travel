@@ -1,11 +1,11 @@
-.place__link{
-  font-family: 'Inter';
+.place__link {
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.2;
   text-decoration-line: underline;
-  color: #FFFFFF;
+  color: #ffffff;
   display: inline-block;
   margin: 0;
   padding-top: 12px;
@@ -13,12 +13,12 @@
   transition: opacity 0.3s linear;
 }
 
-.place__link:hover{
+.place__link:hover {
   opacity: 0.8;
 }
 
 @media screen and (min-width: 1281px) {
-  .place__link{
+  .place__link {
     font-size: 1.4vw;
     padding-top: 0.9vw;
   }

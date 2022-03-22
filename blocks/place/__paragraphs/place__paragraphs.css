@@ -1,20 +1,20 @@
-.place__paragraphs{
+.place__paragraphs {
   grid-column: 2;
   grid-row: 2;
 }
 
 @media (max-width: 425px) {
-  .place__paragraphs{
+  .place__paragraphs {
     grid-column: 1;
     grid-row: 4;
-    width:calc(100% - 32px);
+    width: calc(100% - 32px);
     margin: auto;
   }
 }
 
-@media (max-width: 425px){
-  .place__paragraphs:last-of-type{
+@media (max-width: 425px) {
+  .place__paragraphs:last-of-type {
     grid-column: 1;
-    grid-row: 4/span 2;
+    grid-row: 4 / span 2;
   }
 }

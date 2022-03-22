@@ -1,40 +1,15 @@
 .header__link {
   color: #fff;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 400;
   font-size: 24px;
   line-height: 1.75;
   padding-left: 18px;
 }
 
-
 @media screen and (min-width: 1281px) {
   .header__link {
     font-size: 1.875vw;
-    line-height: 1.75;
-  }
-}
-
-
-@media screen and (max-width: 1280px) {
-  .header__link {
-    font-size: 24px;
-    line-height: 1.75;
-  }
-}
-
-
-@media (max-width: 1024px) {
-  .header__link {
-    font-size: 24px;
-    line-height: 1.75;
-  }
-}
-
-
-@media (max-width: 768px) {
-  .header__link {
-    font-size: 24px;
     line-height: 1.75;
   }
 }

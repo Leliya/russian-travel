@@ -1,6 +1,6 @@
 .footer {
   padding: 92px 0 24px;
-  max-width:calc(100% - 96px);
+  max-width: calc(100% - 96px);
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
@@ -8,23 +8,22 @@
 }
 
 @media screen and (min-width: 1281px) {
-
-
+  .footer {
+    padding: 7.18vw 0 1.87vw;
+  }
 }
-
-
 
 @media (max-width: 768px) {
   .footer {
     padding: 11.46vw 0 24px;
-    max-width:calc(100% -  9.36vw);
+    max-width: calc(100% - 9.36vw);
   }
 }
 
 @media (max-width: 425px) {
   .footer {
     padding: 64px 0 24px;
-    max-width:calc(100% - 32px);
+    max-width: calc(100% - 32px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;

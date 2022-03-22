@@ -1,5 +1,5 @@
 .lead__title {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
@@ -13,41 +13,17 @@
 
 @media screen and (min-width: 1281px) {
   .lead__title {
-    font-size: 96px;
-    line-height: 1.04;
-    width: 720px;
-    grid-column: 3;
-    grid-row: 1;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  .lead__title {
-    font-size: 96px;
-    line-height: 1.04;
-    width: 720px;
-    grid-column: 3;
-    grid-row: 1;
-  }
-}
-
-@media (max-width: 1024px) {
-  .lead__title {
-    font-size: 96px;
-    line-height: 1.04;
-    width: 720px;
-    grid-column: 3;
-    grid-row: 1;
+    font-size: 7.5vw;
+    width: 56.25vw;
+    grid-column: 2/-2;
   }
 }
 
 @media (max-width: 768px) {
   .lead__title {
     font-size: 12.5vw;
-    line-height: 1.04;
     width: 93.75vw;
     grid-column: 2;
-    grid-row: 1;
   }
 }
 

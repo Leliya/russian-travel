@@ -1,5 +1,5 @@
-.footer__copyright{
-  font-family: 'Inter';
+.footer__copyright {
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -8,15 +8,20 @@
   margin: 0;
 }
 
+@media screen and (min-width: 1281px) {
+  .footer__copyright {
+    font-size: 1.1vw;
+  }
+}
+
 @media (max-width: 768px) {
-  .footer__copyright  {
+  .footer__copyright {
     font-size: 1.82vw;
   }
 }
 
 @media (max-width: 425px) {
   .footer__copyright {
-    font-size: 14px;
     line-height: 1;
     text-align: left;
   }

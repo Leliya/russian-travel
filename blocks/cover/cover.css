@@ -1,13 +1,16 @@
-.cover{
- /* max-width: calc(100% - 96px); */
- margin: auto;
- padding-top: 92px;
- position: relative;
- text-decoration: none;
- /* max-height: 740px; */
+.cover {
+  margin: auto;
+  padding-top: 92px;
+  position: relative;
 }
 
-@media (max-width: 768px){
+@media (min-width: 1281px) {
+  .cover {
+    padding-top: 7.18vw;
+  }
+}
+
+@media (max-width: 768px) {
   .cover {
     padding-top: 90px;
   }

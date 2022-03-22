@@ -1,5 +1,5 @@
-.place__title{
-  font-family: 'Inter';
+.place__title {
+  font-family: "Inter";
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -10,16 +10,23 @@
   margin: 0;
 }
 
+@media (min-width: 1281px) {
+  .place__title {
+    font-size: 5.625vw;
+    line-height: 1.1;
+  }
+}
+
 @media (max-width: 768px) {
-  .place__title{
+  .place__title {
     font-size: 5.46vw;
     line-height: 1.1;
   }
 }
 
 @media (max-width: 425px) {
-  .place__title{
-    width:calc(100% - 32px);
+  .place__title {
+    width: calc(100% - 32px);
     margin: auto;
     font-size: 32px;
     line-height: 1.1;
