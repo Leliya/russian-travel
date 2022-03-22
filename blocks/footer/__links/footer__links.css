@@ -4,7 +4,7 @@
   justify-content: start;
   margin: 0;
   padding: 0;
-  align-items: center;
+  align-content: baseline;
 }
 
 @media (max-width: 425px) {
@@ -13,5 +13,6 @@
     justify-content: space-between;
     margin: 0;
     padding: 0;
+    align-items: flex-start;
   }
 }
