@@ -30,7 +30,6 @@
 
 @media (max-width: 425px) {
   .intro__text {
-    grid-column: 2;
     width: calc(100vw - 32px);
   }
 }

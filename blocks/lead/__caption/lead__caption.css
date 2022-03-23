@@ -6,7 +6,6 @@
   text-transform: uppercase;
   margin: 0;
   padding-top: 8px;
-  align-self: start;
   grid-column: 2/4;
   grid-row: 4;
 }
@@ -27,8 +26,6 @@
 @media screen and (max-width: 425px) {
   .lead__caption {
     font-size: 2.35vw;
-    justify-self: start;
     padding-left: 16px;
-    grid-column: 1/3;
   }
 }
