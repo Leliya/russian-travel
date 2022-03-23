@@ -1,9 +1,0 @@
-.header__link_disabled {
-  text-decoration: none;
-  opacity: 1;
-  transition: opacity 0.3s linear;
-}
-
-.header__link_disabled:hover {
-  opacity: 0.8;
-}

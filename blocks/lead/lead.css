@@ -28,7 +28,6 @@
 @media (max-width: 768px) {
   .lead {
     grid-template-columns: 1fr min-content 1fr;
-    padding-top: 48px;
     margin: auto;
   }
 }
@@ -36,6 +35,5 @@
 @media (max-width: 425px) {
   .lead {
     grid-template-columns: 1fr 288px 1fr;
-    padding-top: 48px;
   }
 }
